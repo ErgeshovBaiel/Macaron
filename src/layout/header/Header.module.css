@@ -1,0 +1,105 @@
+.back1 {
+  background-color: #f7ebe5;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  background-color: #d4e9f9;
+  align-items: center;
+  height: 50px;
+}
+
+.header_first {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 14px;
+  padding: 21px;
+  border-bottom: 2px solid transparent; /* Добавьте невидимую границу */
+}
+
+.menu a {
+  color: #000000c9;
+}
+
+.menu li:hover {
+  border-color: red; /* Установите цвет границы при наведении */
+  padding-bottom: 19px;
+}
+
+.header_actions {
+  display: flex;
+}
+
+.actions {
+  margin-left: 30px;
+}
+
+/* second block */
+.back2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_second {
+  height: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul a {
+  color: #2b1414;
+}
+.hov {
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.hov:hover {
+  border-bottom: 2px solid red;
+}
+
+.nav ul li {
+  margin-right: 15px;
+  position: relative;
+}
+
+.nav ul li ul {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 200px;
+  background-color: white;
+  display: none;
+}
+
+.nav ul li ul li {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  z-index: 20;
+  background-color: white;
+}
+
+.nav ul li:hover ul {
+  display: initial;
+}
+.hiden:hover {
+  background: #f7f7f7;
+}
